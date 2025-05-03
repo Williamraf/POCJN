@@ -1,0 +1,55 @@
+{
+  "name": "jnmodel",
+  "version": "0.1.0",
+  "description": "base config node_js sur gltich server + POC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.21.0",
+    "handlebars": "^4.7.8",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^6.10.2",
+    "@fastify/view": "^8.0.0",
+	
+    "@giro3d/giro3d": "^0.42.4",
+    "@loaders.gl/core": "^4.3.3",
+    "@loaders.gl/csv": "^4.3.3",
+    "@loaders.gl/geopackage": "^4.3.3",
+    "@loaders.gl/las": "^4.3.3",
+    "@loaders.gl/shapefile": "^4.3.3",
+    "@popperjs/core": "^2.11.8",
+    "@tarekraafat/autocomplete.js": "^10.2.9",
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.3",
+    "camera-controls": "^2.10.1",
+    "chart.js": "^4.4.9",
+    "chroma-js": "^3.1.2",
+    "cityjson-threejs-loader": "^0.4.0",
+    "d3-dsv": "^3.0.1",
+    "font-gis": "^1.0.5",
+    "ol": "^10.5.0",
+    "openbim-components": "^1.5.0",
+    "pinia": "^3.0.2",
+    "proj4": "^2.15.0",
+    "shepherd.js": "^14.5.0",
+    "shx": "^0.4.0",
+    "three": "^0.176.0",
+    "three.meshline": "^1.4.0",
+    "vue": "^3.5.13",
+    "web-ifc": "^0.0.67"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://github.com/Williamraf/jnmodel"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+	"jnmodel"
+  ]
+}
